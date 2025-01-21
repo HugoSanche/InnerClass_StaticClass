@@ -14,7 +14,9 @@ public class Main {
 
         //CHECA como hacer referencia a la clase que esta dentro de la clase padre.
         InnerClass innerClass1=new InnerClass();
-        InnerClass.InsideOtherClass insideOtherClass=innerClass1.new InsideOtherClass();
+        InnerClass.InsideOtherClass insideOtherClass=innerClass1.new InsideOtherClass();//RECUERDALO
+
+
 
     }
 }

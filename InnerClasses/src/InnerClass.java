@@ -1,4 +1,13 @@
 public class InnerClass {
+
+    public static void main(String[] args) {
+
+        InnerClass innerClass=new InnerClass();
+        InnerClass.InsideOtherClass insideOtherClass=innerClass.new InsideOtherClass();
+        //InnerClass.InsideOtherClass test1=new InsideOtherClass();
+       //InnerClass.InsideOtherClass test2=new InnerClass.InsideOtherClass();
+
+    }
     private int a1;
     private final int a2=0;
     public int a3=3;
@@ -28,16 +37,12 @@ public class InnerClass {
             System.out.println(b2);
             b3=5;
         }
-
     }
 
     //Class hija
     InnerClass.InsideOtherClass test1=new InsideOtherClass();
     InnerClass.InsideOtherClass test2=new InnerClass.InsideOtherClass();
 
-
-
     //class padre
-
 
 }
